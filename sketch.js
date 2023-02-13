@@ -271,7 +271,7 @@ function makeFlippers() {
 function Block() {
   //block
   if (ball.x < 330) {
-    block = new Sprite(338, 190, [49, -59.5], "static");
+    //block = new Sprite(338, 190, [49, -59.5], "static");
   } else {
    return false;
   }
