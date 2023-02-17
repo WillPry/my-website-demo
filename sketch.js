@@ -42,10 +42,8 @@ function setup() {
   //ball
   ball = new Sprite();
   ball.diameter = 20;
-  ball.y = 100;
-  ball.x = 200;
-
-  //504 337.5
+  ball.y = 337.5;
+  ball.x = 504;
 
   //laucher
   launcher = new Sprite();
@@ -252,20 +250,6 @@ function makeFlippers() {
   flipperR.y = 515;
   flipperR.w = 2;
   flipperR.h = 60;
-
-  //   flipperL = new Sprite();
-  //   flipperL.collider = "k";
-  //   flipperL.x = 130;
-  //   flipperL.y = 380;
-  //   flipperL.w = 2;
-  //   flipperL.h = 100;
-
-  //   flipperR = new Sprite();
-  //   flipperR.collider = "k";
-  //   flipperR.x = 270;
-  //   flipperR.y = 380;
-  //   flipperR.w = 2;
-  //   flipperR.h = 100;
 }
 
 function Block() {
