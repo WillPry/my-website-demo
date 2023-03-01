@@ -13,3 +13,14 @@ html, body {
     border-width: 5px;
     border-color: red;
   }
+
+  p {
+
+    color: orange;
+  }
+
+  .bold {
+ font-weight: bold;
+  color: blueviolet;
+
+  }
